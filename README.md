@@ -62,3 +62,5 @@ v0.1 / 20190801
 Showdown을 사용함에 있어 조금이나마 도움이 되었으면 합니다.
 
 감사합니다.
+
+# Showdown Client가 실행된 상태에서는 Showdown Manager가 동작하지 않습니다.
