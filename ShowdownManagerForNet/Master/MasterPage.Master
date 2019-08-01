@@ -1,1 +1,24 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="MasterPage.master.cs" Inherits="ShowdownManagerForNet.Master.MasterPage" %>
 
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>ShowdownManagerForNet</title>
+<link rel="stylesheet" href="/scripts/bower_components/dist/jui-grid.classic.css" />
+<link rel="stylesheet" href="/scripts/bower_components/dist/ui-jennifer.min.css" />
+<link rel="stylesheet" href="/scripts/bower_components/dist/ui.min.css" />
+</head>
+<body class="jui" style="background-color: #fff;">
+    <form id="form1" runat="server">
+        <div>
+            <asp:ContentPlaceHolder id="MainContent" runat="server"></asp:ContentPlaceHolder>
+            <script src="/scripts/bower_components/require.js"></script>
+            <script src="/scripts/Master.js?<%=DateTime.Now.ToString("yyyyMMddHHmmss") %>"></script>
+            <script src="/scripts/bower_components/require.js"></script>
+            <asp:ContentPlaceHolder ID="HeadContent" runat="server"></asp:ContentPlaceHolder>
+        </div>
+    </form>
+</body>
+</html>
