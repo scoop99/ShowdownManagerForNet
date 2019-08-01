@@ -1,9 +1,8 @@
 
-##Showdown Web Manager
-iodides님이 제작하신 Showdown을 Web에서 관리할 수 있도록 제작
+##Showdown Web Manager  
+iodides님이 제작하신 Showdown을 Web에서 관리할 수 있도록 제작  
 
-제작 및 구동 환경
-
+제작 및 구동 환경  
 Visual Studio 2019  
 UI : jui.io http://jui.io/  
 Microsoft .NET Framework 4.5  
