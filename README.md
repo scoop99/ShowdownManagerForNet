@@ -1,20 +1,15 @@
-Showdown Web Manager
+
+##Showdown Web Manager
 iodides님이 제작하신 Showdown을 Web에서 관리할 수 있도록 제작
 
 제작 및 구동 환경
 
-Visual Studio 2019
-
-UI : jui.io http://jui.io/
-
-Microsoft .NET Framework 4.5
-
-Windows10 IIS 
-
-Showdown v1.55 : https://iodides.tistory.com/15
-
-데모 페이지(Showdown 서버와 소켓 통신 부분은 제외) : http://scoop99.asuscomm.com:8070
-
+Visual Studio 2019  
+UI : jui.io http://jui.io/  
+Microsoft .NET Framework 4.5  
+Windows10 IIS  
+Showdown v1.55 : https://iodides.tistory.com/15  
+데모 페이지(Showdown 서버와 소켓 통신 부분은 제외) : http://scoop99.asuscomm.com:8070  
 
 기본적인 로직
 1. 정보(방송 프로그램, 에피소드)는 DB에 바로 접속
